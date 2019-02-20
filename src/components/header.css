@@ -1,0 +1,134 @@
+header {
+  font-family: 'PT Sans', sans-serif;
+  padding: 10px 10px 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  max-width: 800px;
+  background-color: #eeecec;
+}
+
+/* Header Logo */
+
+.header-logo-minor-links {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  text-decoration: none;
+}
+
+.header-logo-minor-links>h4 {
+  margin: 10px 0 0 0;
+  width: 50px;
+}
+
+.header-logo-image-container {
+  display: flex;
+  justify-content: center;
+  max-height: 150px;
+}
+
+img {
+  max-height: 150px;
+}
+
+.header-logo-tagline {
+  margin: -40px -20px 0 0;
+  text-shadow: 1px 1px 3px #c4c5ce;
+}
+
+.header-logo-tagline-right {
+  padding-left: 110px;
+}
+
+/* Header Nav Links */
+
+.header-main {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.1em;
+  flex-wrap: wrap;
+}
+
+.header-main>div {
+  min-width: 100px;
+  max-height: 50px;
+  margin: 0 0 5px 0;
+}
+
+.header-main>div>h3 {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: #c5c5c59d;
+}
+
+.header-main>div:not(.active):hover {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #c5c5c554;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcfcfc;
+  left: -25px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+h5 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+}
+
+.about-dropdown:not(.active):hover .about-dropdown-content {
+  display: block;
+  z-index: 2;
+}
+
+.programs-dropdown:hover .programs-dropdown-content {
+  display: block;
+}
+
+.activities-dropdown:hover .activities-dropdown-content {
+  display: block;
+}
+
+.events-dropdown:hover .events-dropdown-content {
+  display: block;
+}
+
+/* Header Bottom Line */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

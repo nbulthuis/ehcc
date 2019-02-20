@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+/* Document Parameters */
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+  background-color: #eeecec;
+}
+
+.page {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* Site Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+  flex: 1;
+  /* max-width: 800px; */
+}
+
+/* Footer */
+
+footer {
+  padding: 0px 1.0875rem;
+  max-width: 800px;
+  margin-bottom: 5px;
+  font-size: .75em;
+  text-align: center;
+}

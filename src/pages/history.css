@@ -1,0 +1,53 @@
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: left;
+  text-align: justify;
+}
+
+.slideNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+.active {
+  display: block;
+  height: 100%;
+  background-color: transparent;
+}
+
+.passive {
+  display: none;
+}
+
+.slideContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.slideBack, .slideForward {
+  background-color: rgba(172, 172, 172, 0.33);
+  margin: auto 0;
+  width: 20px;
+  text-align: center;
+}
+
+.slideText {
+  flex: 80%;
+}
