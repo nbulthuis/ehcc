@@ -14,10 +14,11 @@ header {
 .header-logo-minor-links {
   font-size: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: flex-end;
   position: absolute;
   text-decoration: none;
+
 }
 
 .header-logo-minor-links>h4 {
