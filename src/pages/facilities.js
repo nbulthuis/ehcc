@@ -1,16 +1,21 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, {useState} from 'react'
 
 import Layout from '../components/layout'
-import About from '../components/about'
 import FacilitiesMenu from '../components/facilities_menu'
 
+function handleClick(event){
+  
+}
 
-const FacilitiesPage = () => (
-  <Layout place="about">
-    <About />
+const FacilitiesPage = () => {
+  const []
+}
+
+
+(
+  <Layout>
     <FacilitiesMenu />
-    <div className="google-maps">
+    <div>
     </div>
   </Layout>
 )

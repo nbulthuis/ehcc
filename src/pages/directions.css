@@ -8,6 +8,6 @@
 }
 
 .directions {
-  margin: 0;
   text-align: left;
+  max-width: 90vw;
 }

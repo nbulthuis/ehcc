@@ -34,10 +34,10 @@ const Header = ({ siteTitle }) => (
             <Link to="/directions">Directions & Map</Link>
           </h5>
           <h5>
-            <Link to="/history">History of Ellis Hollow</Link>
+            <Link to="/history">Ellis Hollow History</Link>
           </h5>
           <h5>
-            <Link to="/board">Community Center Board</Link>
+            <Link to="/board">EHCC Board</Link>
           </h5>
           <h5>
             <Link to="/gazette">Gazette Archive</Link>
